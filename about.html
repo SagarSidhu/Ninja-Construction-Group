@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ninja Construction Group</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="form.css" >
+        <script src="form.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .jumbotron {
+        margin-bottom: 0px;
+        background-color: white;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+            
+    }
+        .jumbotron img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+    .btn-info {
+            color: #C02830;
+            background-color: white;
+            border-color: #C02830;
+            font-size: 20px;
+      }
+    .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active {
+    color: #df4937;
+    background-color: #df4937;
+    border-color: #df4937; /*set the color you want here*/
+}
+     
+        .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: darkred; /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
+        a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #C02830; /*BACKGROUND color for active*/
+    background-color: lightgray;
+}
+
+.navbar-default {
+            font-family: "Times New Roman";
+            font-size: 20px;
+            color: #C02830;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #C02830; /*change color of links in drop down here*/
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: #C02830; /*Change rollover cell color here*/
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #C02830; /*Change active text color here*/
+}
+        body {
+            font-family: "Times New Roman";
+        }
+        li {
+          font-size: 14px;  
+        }
+        .center-block {
+            padding-left: 10px;
+        }
+        .row {
+            padding-top: 20px;
+        }
+        h2, h3 {
+            color: #C02830;
+        }
+        .lead {
+            font-size: 17px;
+        }
+        p {
+            font-size: 17px;
+        }
+        internal-bottom-cta {
+            text-align: center;
+        }
+                footer {
+    background-color:lightgrey;
+
+    width: 100%;
+    bottom: 0;
+    font-weight: lighter;
+    color: white;
+}
+.footerHeader{
+    width:100%;
+    padding:1em;
+    background-color:lightgrey;
+    text-align:center;
+    color:white;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+footer p{
+    text-align : justify;
+    font-size : 12px;
+}
+footer iframe {
+    width:100%;
+    position:relative;
+    height:170px;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+} 
+.sm li a img {
+    width:32px;
+}
+                body {
+            font-size: 17px;
+        }
+        .navbar-brand{
+            font-size: 30px;
+        }
+                li {
+          font-size: 20px;  
+        }
+    </style>
+</head>
+    <body>
+        <div class="content">
+            <div class="jumbotron header">
+                <img class="img-responsive" src="Images/400dpiLogoCropped.png" alt="Ninja Construction Group" width="700px" height="100px"> 
+            </div>
+    <!-- NAVBAR --> 
+  <nav class="navbar navbar-default">
+  <div class="container-fluid navbar-container">
+        <h2>Call Us Today</h2>
+          <a class="navbar-brand" href="tel:16047863325">604-725-6845</a>	
+      <div class="navbar-header">	    
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">	
+            <span class="icon-bar"></span>	
+            <span class="icon-bar"></span>	
+            <span class="icon-bar"></span>                        	
+          </button>	
+        </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="home.html">Home</a></li>
+        <li class="active"><a href="About.html">About Us</a></li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Decks
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Vinyl.html">Vinyl Decks</a></li>
+          <li><a href="Composite.html">Composite Decks</a></li>
+          <li><a href="Wooden.html">Wooden Decks</a></li>
+          <li><a href="liquid.html">Liquid Decks</a></li>
+        </ul>
+      </li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Fencing
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="CedarFence.html">Cedar Fencing</a></li>
+          <li><a href="VinylFecne.html">Vinyl Fencing</a></li>
+          <li><a href="MetalFence.html">Caged (Metal) Fencing</a></li>
+        </ul>
+      </li>
+        <li><a href="Renos.html">Renovations</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Service Area
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Surrey.html">Surrey</a></li>
+          <li><a href="Delta.html">Delta</a></li>
+          <li><a href="WhiteRock.html">White Rock</a></li>
+          <li><a href="Ladner.html">Ladner</a></li>
+          <li><a href="Tsawawassen.html">Tsawwassen</a></li>
+          <li><a href="Langley.html">Langley</a></li>
+          <li><a href="Burnaby.html">Burnaby</a></li>
+          <li><a href="NewWest.html">New Westminister</a></li>
+          <li><a href="Richmond.html">Richmond</a></li>
+          <li><a href="Vancouver.html">Vancouver</a></li>  
+          <li><a href="WestVan.html">West Vancouver</a></li>
+          <li><a href="NorthVan.html">North Vancouver</a></li>
+          <li><a href="Coquitlam.html">Coquitlam</a></li>
+          <li><a href="PoQo.html">Port Coquitlam</a></li>
+          <li><a href="MapleRidge.html">Maple Ridge</a></li>
+          <li><a href="PittMeadows.html">Pitt Meadows</a></li>
+          <li><a href="Abostford.html">Abbostford</a></li>
+          <li><a href="Aldergrove.html">Aldergrove</a></li>
+            </ul>
+      </ul>
+    </div>
+  </div>
+</nav>
+            <div class="container marketing">
+            <h2>About Ninja Construction Group</h2>
+            <h4><b>Over 10 years Of Construction Project Management Experience</b></h4>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="Images/pexels-photo-544965.jpeg" alt="First slide">
+        </div>
+        <div class="item">
+          <img class="second-slide" src="Images/pexels-photo.jpg" alt="Second slide">
+        </div>
+        <div class="item">
+          <img class="third-slide" src="Images/pexels-photo-872955.jpeg" alt="Third slide">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+         
+            <div class="row featurette">
+                <div class="col-md-7 col-md-push-5">
+                <h2 class="featurette-heading">At Ninja Construction ...</h2>
+                <p class="lead">
+              
+              We are dedicated to making your dream deck or outdoor living project a reality. With our reputation for success, you can be sure you are getting the best deck or outdoor living space from an experienced designer and builder.<br><br>
+
+                    We believe in providing professional, quality work while having fun doing so. Ninja Construction provides a solid team of knowledgeable staff that enjoy and care about each project. Communication is our top priority for both our customer and the Ninja Construction Team.
+                    <br><br>
+                    At Ninja Construction, our top priority is making sure the customer gains a positive experience while working with us. Whether you are building a new deck or renovating your existing residence we will work with you every step of the way. !
+                    </p>
+                    </div>
+                <div class="col-md-5 col-md-pull-7">
+                    <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="Images/deck-slideshow-3.jpg" data-holder-rendered="true">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">&emsp;Our Mission </h2>
+            <p>&emsp; &emsp;- Flexible work hours</p>
+            <p>&emsp;&emsp; - We consult you and plan carefully before the work begins</p>
+            <p>&emsp;&emsp; - Our team of diligent, hard-working experts are always prepared to help you</p>
+            <p>&emsp;&emsp; - We always bring all the necessary tools and equipment to finish the job</p>
+            <p>&emsp;&emsp; - Finishing your project on time even if the weather is bad</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="Images/bay-beach-bicycle-349727.jpg" data-holder-rendered="true">
+        </div>
+      </div>
+                        <hr class="featurette-divider">
+            </div>
+                       <div class="row">
+                <div class="col-md-6 col-md-offset-3" id="form_container">
+                    <h2>Get A Free Quote Today & 10% Off Your Project With Us</h2> 
+                    <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_subheadline-47352" data-de-type="headline" data-de-editing="false" data-title="sub-headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" data-gramm="false" style="margin-top: 15px; outline: none; cursor: pointer; font-family: Times New Roman" data-google-font="Lato" aria-disabled="false">
+                        <div class="ne elHeadline hsSize2 lh3 elMargin0 elBGStyle0 hsTextShadow1" style="text-align: center; font-size: 18px; color: rgb(71, 71, 71);" data-bold="inherit" data-gramm="false" contenteditable="false">
+                            <i class="fa_prepended fa fa-lock" contenteditable="false"></i><div>All you need to do is contact us and <b>we will call &amp; assist you all the way through with decking ideas, advice and answer any questions you have - no obligation!</b>
+                            </div>
+                        </div>
+                                                  <hr class="featurette-divider">
+
+                    <a href="tel:16047863325" onclick="ga('send', 'event', 'calls', 'click', 'phone number');" class="btn btn-info" role="button">Call Us</a>
+                    </div> 
+                          <hr class="featurette-divider">
+
+                    <form role="form" method="post" id="reused_form">
+
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label for="name"> Your Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <label for="email"> Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label for="phone"> Phone :</label>
+                                <input type="text" class="form-control" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <label for="message"> Please, let us know your request or share any details here:</label>
+                                <textarea class="form-control" type="textarea" name="message" id="message" maxlength="6000" rows="7"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <button type="submit" class="btn btn-lg btn-default pull-right" >Get a FREE, Time-Saving Quote &rarr;</button>
+                            </div>
+                        </div>
+                    </form>
+                    
+                    <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Posted your message successfully!</h3> </div>
+                    <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+                </div>
+            </div> 
+            
+        </div>
+    </body>
+<footer>
+    <div class="footerHeader" ></div>
+    <div class="container"> 
+		<div class="col-md-4" >
+		    <h3>About us</h3>
+		    <p>
+              We are dedicated to making your dream deck or outdoor living project a reality. With our reputation for success, you can be sure you are getting the best deck or outdoor living space from an experienced designer and builder.<br><br>
+
+                    We believe in providing professional, quality work while having fun doing so. Ninja Construction provides a solid team of knowledgeable staff that enjoy and care about each project. Communication is our top priority for both our customer and the Ninja Construction Team.
+		    </p>
+		</div>
+		
+		<div class="col-md-4">
+            <img src="Images/SmallLogo.png" class="rounded mx-auto d-block" alt="..." height="300px;" width="300px;">
+		</div>
+		<div class="col-md-4" >
+		    <h3>Contact Us</h3>
+		    <ul>
+		        <li>Phone : 123 - 456 - 789</li>
+		        <li>E-mail : info@comapyn.com</li>
+		        <li>Fax : 123 - 456 - 789</li>
+		    </ul>
+		    <ul class="sm">
+                <h3>Find us on Social Media!</h3>
+		        <li><a href="#" ><img src="https://www.facebook.com/images/fb_icon_325x325.png" class="img-responsive"></a></li>
+		        <li><a href="#" ><img src="https://lh3.googleusercontent.com/00APBMVQh3yraN704gKCeM63KzeQ-zHUi5wK6E9TjRQ26McyqYBt-zy__4i8GXDAfeys=w300" class="img-responsive" ></a></li>
+		        <li><a href="#" ><img src="http://playbookathlete.com/wp-content/uploads/2016/10/twitter-logo-4.png" class="img-responsive"  ></a></li>
+		    </ul>
+		</div>
+    </div>
+</footer>
+
+
+
+</html>
